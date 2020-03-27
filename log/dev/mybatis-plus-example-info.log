@@ -1,98 +1,78 @@
-2019-08-30 11:49:09.708 [main] INFO  c.f.m.service.MPStudentServiceTest - Starting MPStudentServiceTest on localhost with PID 15870 (started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/MyBatis-Plus-Example)
-2019-08-30 11:49:09.711 [main] INFO  c.f.m.service.MPStudentServiceTest - The following profiles are active: dev
-2019-08-30 11:49:11.022 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$29728fb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-30 11:49:12.121 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-08-30 11:49:12.491 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-30 11:49:12.755 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2019-08-30 11:49:12.780 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2019-08-30 11:49:12.810 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2019-08-30 11:49:12.945 [main] INFO  c.f.m.service.MPStudentServiceTest - Started MPStudentServiceTest in 3.853 seconds (JVM running for 4.94)
-2019-08-30 11:49:13.471 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2019-08-30 11:49:14.028 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2019-08-30 11:49:14.164 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-30 11:49:14.168 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2019-08-30 11:49:14.194 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2019-08-30 11:49:46.696 [main] INFO  c.f.m.service.MPStudentServiceTest - Starting MPStudentServiceTest on localhost with PID 15883 (started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/MyBatis-Plus-Example)
-2019-08-30 11:49:46.698 [main] INFO  c.f.m.service.MPStudentServiceTest - The following profiles are active: dev
-2019-08-30 11:49:48.060 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c754bf9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-30 11:49:49.169 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-08-30 11:49:49.570 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-30 11:49:49.842 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2019-08-30 11:49:49.868 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2019-08-30 11:49:49.896 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2019-08-30 11:49:50.017 [main] INFO  c.f.m.service.MPStudentServiceTest - Started MPStudentServiceTest in 3.973 seconds (JVM running for 4.814)
-2019-08-30 11:49:50.457 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2019-08-30 11:49:50.874 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2019-08-30 11:49:51.005 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-30 11:49:51.009 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2019-08-30 11:49:51.018 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2019-08-30 11:58:38.511 [main] INFO  c.f.m.service.MPStudentServiceTest - Starting MPStudentServiceTest on localhost with PID 15941 (started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/MyBatis-Plus-Example)
-2019-08-30 11:58:38.563 [main] INFO  c.f.m.service.MPStudentServiceTest - The following profiles are active: dev
-2019-08-30 11:58:39.992 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5172d50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-30 11:58:41.106 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-08-30 11:58:41.473 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-30 11:58:41.736 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2019-08-30 11:58:41.765 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2019-08-30 11:58:41.792 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2019-08-30 11:58:41.928 [main] INFO  c.f.m.service.MPStudentServiceTest - Started MPStudentServiceTest in 4.05 seconds (JVM running for 4.92)
-2019-08-30 11:58:42.360 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2019-08-30 11:58:42.749 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2019-08-30 11:58:42.983 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-30 11:58:42.987 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2019-08-30 11:58:43.017 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2019-08-30 11:59:26.372 [main] INFO  c.f.m.service.MPStudentServiceTest - Starting MPStudentServiceTest on localhost with PID 15959 (started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/MyBatis-Plus-Example)
-2019-08-30 11:59:26.373 [main] INFO  c.f.m.service.MPStudentServiceTest - The following profiles are active: dev
-2019-08-30 11:59:27.566 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fe7e9d8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-30 11:59:28.662 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-08-30 11:59:29.038 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-30 11:59:29.314 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2019-08-30 11:59:29.337 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2019-08-30 11:59:29.365 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2019-08-30 11:59:29.508 [main] INFO  c.f.m.service.MPStudentServiceTest - Started MPStudentServiceTest in 3.666 seconds (JVM running for 4.485)
-2019-08-30 11:59:29.960 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2019-08-30 11:59:30.338 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2019-08-30 11:59:30.565 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-30 11:59:30.571 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2019-08-30 11:59:30.589 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2019-08-30 12:02:27.883 [main] INFO  c.f.m.service.MPStudentServiceTest - Starting MPStudentServiceTest on localhost with PID 15977 (started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/MyBatis-Plus-Example)
-2019-08-30 12:02:27.884 [main] INFO  c.f.m.service.MPStudentServiceTest - The following profiles are active: dev
-2019-08-30 12:02:29.402 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4496a193] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-30 12:02:30.678 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-08-30 12:02:31.088 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-30 12:02:31.361 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2019-08-30 12:02:31.387 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2019-08-30 12:02:31.416 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2019-08-30 12:02:31.558 [main] INFO  c.f.m.service.MPStudentServiceTest - Started MPStudentServiceTest in 4.316 seconds (JVM running for 5.211)
-2019-08-30 12:02:32.001 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2019-08-30 12:02:32.412 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2019-08-30 12:02:32.657 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-30 12:02:32.662 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2019-08-30 12:02:32.681 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2019-08-30 12:04:03.178 [main] INFO  c.f.m.service.MPStudentServiceTest - Starting MPStudentServiceTest on localhost with PID 16021 (started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/MyBatis-Plus-Example)
-2019-08-30 12:04:03.180 [main] INFO  c.f.m.service.MPStudentServiceTest - The following profiles are active: dev
-2019-08-30 12:04:04.524 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fe7e9d8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-30 12:04:05.592 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-08-30 12:04:05.958 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-30 12:04:06.228 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2019-08-30 12:04:06.251 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2019-08-30 12:04:06.281 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2019-08-30 12:04:06.416 [main] INFO  c.f.m.service.MPStudentServiceTest - Started MPStudentServiceTest in 3.853 seconds (JVM running for 4.734)
-2019-08-30 12:04:06.845 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2019-08-30 12:04:07.247 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2019-08-30 12:04:07.489 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-30 12:04:07.494 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2019-08-30 12:04:07.518 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2019-08-30 12:04:39.027 [main] INFO  c.f.m.service.MPStudentServiceTest - Starting MPStudentServiceTest on localhost with PID 16031 (started by wenyifeng in /Users/wenyifeng/Workspaces/demo-projects/MyBatis-Plus-Example)
-2019-08-30 12:04:39.029 [main] INFO  c.f.m.service.MPStudentServiceTest - The following profiles are active: dev
-2019-08-30 12:04:40.344 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5172d50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-30 12:04:41.436 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-08-30 12:04:41.800 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-30 12:04:42.065 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2019-08-30 12:04:42.090 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2019-08-30 12:04:42.115 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2019-08-30 12:04:42.252 [main] INFO  c.f.m.service.MPStudentServiceTest - Started MPStudentServiceTest in 3.783 seconds (JVM running for 4.602)
-2019-08-30 12:04:42.670 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2019-08-30 12:04:43.067 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2019-08-30 12:04:43.296 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-30 12:04:43.300 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2019-08-30 12:04:43.320 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-03-27 13:32:38.732 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Starting AutoWireTest on brayden-Inspiron with PID 16024 (started by brayden in /media/brayden/DATA/com/learn/MyBatis-Plus-Example)
+2020-03-27 13:32:38.736 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - The following profiles are active: dev
+2020-03-27 13:32:40.707 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$adcaa9e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-27 13:32:42.368 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-27 13:32:42.993 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 13:32:43.526 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-27 13:32:43.561 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-27 13:32:43.600 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-27 13:32:43.820 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Started AutoWireTest in 5.834 seconds (JVM running for 7.158)
+2020-03-27 13:32:44.352 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-27 13:32:44.852 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-27 13:32:44.968 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-27 13:32:44.973 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-03-27 13:32:44.994 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-03-27 15:03:02.281 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Starting AutoWireTest on brayden-Inspiron with PID 21923 (started by brayden in /media/brayden/DATA/com/learn/MyBatis-Plus-Example)
+2020-03-27 15:03:02.282 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - The following profiles are active: dev
+2020-03-27 15:03:03.969 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$be270480] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-27 15:03:05.504 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-27 15:03:06.184 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:03:06.726 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-27 15:03:06.767 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-27 15:03:06.816 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-27 15:03:07.073 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Started AutoWireTest in 5.604 seconds (JVM running for 6.668)
+2020-03-27 15:03:07.599 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-27 15:03:08.112 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-27 15:03:08.232 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:03:08.235 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-03-27 15:03:08.245 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-03-27 15:08:43.528 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Starting AutoWireTest on brayden-Inspiron with PID 22381 (started by brayden in /media/brayden/DATA/com/learn/MyBatis-Plus-Example)
+2020-03-27 15:08:43.530 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - The following profiles are active: dev
+2020-03-27 15:08:45.408 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a2f3dbc5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-27 15:08:47.181 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-27 15:08:47.905 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:08:48.422 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-27 15:08:48.464 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-27 15:08:48.514 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-27 15:08:48.755 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Started AutoWireTest in 5.884 seconds (JVM running for 6.796)
+2020-03-27 15:08:49.296 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-27 15:08:49.812 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-27 15:08:49.939 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:08:49.944 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-03-27 15:08:49.969 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-03-27 15:09:35.132 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Starting AutoWireTest on brayden-Inspiron with PID 22537 (started by brayden in /media/brayden/DATA/com/learn/MyBatis-Plus-Example)
+2020-03-27 15:09:35.133 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - The following profiles are active: dev
+2020-03-27 15:09:36.741 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b8413cc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-27 15:09:38.145 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-27 15:09:38.756 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:09:39.261 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-27 15:09:39.297 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-27 15:09:39.345 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-27 15:09:39.592 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Started AutoWireTest in 5.124 seconds (JVM running for 6.085)
+2020-03-27 15:09:40.307 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-27 15:09:40.836 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-27 15:09:41.089 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:09:41.097 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-03-27 15:09:41.126 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-03-27 15:30:12.031 [main] INFO  c.f.m.MybatisPlusExampleApplication - Starting MybatisPlusExampleApplication on brayden-Inspiron with PID 24166 (/media/brayden/DATA/com/learn/MyBatis-Plus-Example/target/classes started by brayden in /media/brayden/DATA/com/learn/MyBatis-Plus-Example)
+2020-03-27 15:30:12.035 [main] INFO  c.f.m.MybatisPlusExampleApplication - The following profiles are active: dev
+2020-03-27 15:30:13.067 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b41d4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-27 15:30:13.305 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-27 15:30:13.319 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-27 15:30:13.328 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-27 15:30:13.328 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-27 15:30:13.404 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-27 15:30:13.404 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1315 ms
+2020-03-27 15:30:14.035 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-27 15:30:14.154 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:30:14.293 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-27 15:30:14.307 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-27 15:30:14.331 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-27 15:30:14.434 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-27 15:30:14.454 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-27 15:30:14.457 [main] INFO  c.f.m.MybatisPlusExampleApplication - Started MybatisPlusExampleApplication in 3.02 seconds (JVM running for 3.59)
+2020-03-27 15:30:27.866 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 15:30:27.868 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-27 15:30:27.876 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-03-27 15:30:46.814 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-27 15:30:47.126 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

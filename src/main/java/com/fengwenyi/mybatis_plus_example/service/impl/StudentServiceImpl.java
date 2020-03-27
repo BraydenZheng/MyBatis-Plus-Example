@@ -91,9 +91,9 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
     public void test3() {
         QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
         queryWrapper.lambda()
-                .eq(Student::getName, "冯文议")
+//                .eq(Student::getName, "冯文议")
 //                .eq(Student::getAge, 26)
-                .eq(Student::getAge, 25);
+                .eq(Student::getAge, 20);
         List<Student> studentList = list(queryWrapper);
         for (Student student : studentList)
             Console.info(JSON.toJSONString(student));
