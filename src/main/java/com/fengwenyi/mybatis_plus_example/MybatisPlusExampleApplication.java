@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @EnableTransactionManagement
 @SpringBootApplication
-@MapperScan("com.fengwenyi.mybatis_plus_example.dao")
+@MapperScan("com.fengwenyi.mybatis_plus_example.mapper")
 public class MybatisPlusExampleApplication {
 
     /**

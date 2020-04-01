@@ -3,7 +3,7 @@ package com.fengwenyi.mybatis_plus_example.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.fengwenyi.javalib.util.ExceptionUtil;
 import com.fengwenyi.mybatis_plus_example.model.Idcard;
-import com.fengwenyi.mybatis_plus_example.dao.IdcardDao;
+import com.fengwenyi.mybatis_plus_example.mapper.IdcardMapper;
 import com.fengwenyi.mybatis_plus_example.service.MPIdcardService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
@@ -21,7 +21,7 @@ import java.util.List;
  */
 @Service
 @Slf4j
-public class IdcardServiceImpl extends ServiceImpl<IdcardDao, Idcard> implements MPIdcardService {
+public class IdcardServiceImpl extends ServiceImpl<IdcardMapper, Idcard> implements MPIdcardService {
 
     @Override
     public boolean addIdCard(Idcard idcard) {

@@ -11,6 +11,8 @@ import com.fengwenyi.mybatis_plus_example.model.Idcard;
 import com.fengwenyi.mybatis_plus_example.model.Student;
 import com.fengwenyi.mybatis_plus_example.service.MPCityService;
 import com.fengwenyi.mybatis_plus_example.service.MPStudentService;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -40,9 +42,9 @@ public class AppController {
 
     // 查询所有城市
     @GetMapping("/queryCityAll")
-    public ResultModel queryCityAll() {
+    public Object queryCityAll() {
         List<City> cities = mpCityService.queryCityAll();
-        return ResultHelper.success("Success", cities);
+        return ResultHelper.success("Success", new PageInfo<>(cities));
     }
 
 
@@ -93,9 +95,15 @@ public class AppController {
         return ResultHelper.error("添加失败");
     }
 
+//@RequestParam(required = false,defaultValue = "1",value = "pageNumber")int pageNumber, @RequestParam(required = false,defaultValue = "10",value = "pageSize")int pageSize
+    @GetMapping("/SelectStudent")
+    public Object selectStudent(Student param) {
+        return new PageInfo<>(mpStudentService.selectlist(param));
+    }
+
     // 分页查询学生
     @GetMapping("/queryStudentByPage/{currentPage}")
-    public ResultModel queryStudentByPage(@PathVariable("currentPage") Long currentPage) {
+    public Object queryStudentByPage(@PathVariable("currentPage") Long currentPage) {
         if (currentPage == null)
             return ResultHelper.error("当前页不能为空");
         IPage<Student> studentIPage = mpStudentService.queryStudentByPage(currentPage);

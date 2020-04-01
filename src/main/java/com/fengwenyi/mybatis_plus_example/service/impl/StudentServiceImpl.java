@@ -9,9 +9,10 @@ import com.fengwenyi.javalib.util.Console;
 import com.fengwenyi.javalib.util.ExceptionUtil;
 import com.fengwenyi.mybatis_plus_example.config.ConstantConfig;
 import com.fengwenyi.mybatis_plus_example.model.Student;
-import com.fengwenyi.mybatis_plus_example.dao.StudentDao;
+import com.fengwenyi.mybatis_plus_example.mapper.StudentMapper;
 import com.fengwenyi.mybatis_plus_example.service.MPStudentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.github.pagehelper.PageHelper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -29,7 +30,11 @@ import java.util.List;
  */
 @Service
 @Slf4j
-public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> implements MPStudentService {
+public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student> implements MPStudentService {
+
+
+    @Resource
+    StudentMapper studentMapper;
 
     @Override
     public boolean addStudent(Student student) {
@@ -56,6 +61,15 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
             log.error("queryStudentByIdCardId 有多个结果，idCardId={}", idCardId);
 
         return studentList.get(0);
+    }
+
+    @Override
+    public List<Student> selectlist(Student student) {
+        QueryWrapper<Student> wrapper = new QueryWrapper(student);
+        //search by page
+        PageHelper.startPage(student.getPageNum(), student.getPageSize());
+        PageHelper.orderBy(student.getOrder() + " " + student.getSort());
+        return studentMapper.selectList(wrapper);
     }
 
     // 简单分页查询
@@ -135,12 +149,11 @@ public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> impleme
             Console.info(JSON.toJSONString(student));
     }
 
-    @Resource
-    StudentDao studentDao;
+
 
     @Override
     public void test7() {
-        List<Student> studentList = studentDao.selectAll();
+        List<Student> studentList = studentMapper.selectAll();
         for (Student student : studentList)
             Console.info(JSON.toJSONString(student));
     }

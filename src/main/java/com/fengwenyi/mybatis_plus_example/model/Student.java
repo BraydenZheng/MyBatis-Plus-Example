@@ -12,11 +12,14 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import com.fengwenyi.mybatis_plus_example.enums.GenderEnum;
+import com.fengwenyi.mybatis_plus_example.model.Dto.WebInDto;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import io.swagger.annotations.ApiParam;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * <p>
@@ -31,7 +34,9 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 @TableName("t_student")
 @ApiModel(value="Student对象", description="")
-public class Student extends Model<Student> {
+//public class Student extends Model<Student> {
+
+public class Student extends WebInDto<Student> {
 
     private static final long serialVersionUID = 1L;
 
@@ -54,11 +59,15 @@ public class Student extends Model<Student> {
     private Boolean isDelete;
 
     @ApiModelProperty(value = "创建时间")
-    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date createTime;
 
+//dataType = "Date"
+    //    @ApiParam(value = "更新时间update", example = "1999-09-09 00:00:00")
+//    @JsonFormat(pattern= "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+
     @ApiModelProperty(value = "更新时间")
-    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date updateTime;
 
     @ApiModelProperty(value = "性别（0：保密（默认）；1：男；2：女）")

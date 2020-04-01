@@ -1,0 +1,50 @@
+2020-03-30 14:36:10.310 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Starting AutoWireTest on brayden-Inspiron with PID 20835 (started by brayden in /media/brayden/DATA/com/learn/MyBatis-Plus-Example)
+2020-03-30 14:36:10.315 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - The following profiles are active: dev
+2020-03-30 14:36:13.324 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b8413cc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-30 14:36:15.515 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-30 14:36:16.661 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 14:36:17.775 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 14:36:17.856 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 14:36:17.931 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 14:36:18.227 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Started AutoWireTest in 8.953 seconds (JVM running for 10.796)
+2020-03-30 14:36:19.070 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 14:36:44.069 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Starting AutoWireTest on brayden-Inspiron with PID 20938 (started by brayden in /media/brayden/DATA/com/learn/MyBatis-Plus-Example)
+2020-03-30 14:36:44.071 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - The following profiles are active: dev
+2020-03-30 14:36:47.141 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b8413cc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-30 14:36:49.497 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-30 14:36:50.560 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 14:36:51.497 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 14:36:51.564 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 14:36:51.649 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 14:36:51.996 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Started AutoWireTest in 8.986 seconds (JVM running for 10.593)
+2020-03-30 14:36:52.661 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 14:37:19.548 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Starting AutoWireTest on brayden-Inspiron with PID 21033 (started by brayden in /media/brayden/DATA/com/learn/MyBatis-Plus-Example)
+2020-03-30 14:37:19.550 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - The following profiles are active: dev
+2020-03-30 14:37:22.382 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a91a578f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-30 14:37:24.722 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-30 14:37:25.634 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 14:37:26.519 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 14:37:26.599 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 14:37:26.691 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 14:37:27.107 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Started AutoWireTest in 8.676 seconds (JVM running for 10.447)
+2020-03-30 14:37:27.839 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 14:38:10.047 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Starting AutoWireTest on brayden-Inspiron with PID 21138 (started by brayden in /media/brayden/DATA/com/learn/MyBatis-Plus-Example)
+2020-03-30 14:38:10.048 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - The following profiles are active: dev
+2020-03-30 14:38:12.303 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b8413cc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-30 14:38:14.445 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-30 14:38:15.260 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 14:38:15.854 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 14:38:15.894 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 14:38:15.949 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 14:38:16.173 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Started AutoWireTest in 7.466 seconds (JVM running for 9.105)
+2020-03-30 14:38:16.704 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 14:44:32.759 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Starting AutoWireTest on brayden-Inspiron with PID 21695 (started by brayden in /media/brayden/DATA/com/learn/MyBatis-Plus-Example)
+2020-03-30 14:44:32.769 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - The following profiles are active: dev
+2020-03-30 14:44:35.393 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b8413cc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-30 14:44:37.797 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-30 14:44:38.874 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 14:44:39.699 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 14:44:39.752 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 14:44:39.821 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 14:44:40.174 [main] INFO  com.fengwenyi.mybatis_plus_example.AutoWireTest - Started AutoWireTest in 8.434 seconds (JVM running for 9.787)
+2020-03-30 14:44:40.914 [Thread-1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

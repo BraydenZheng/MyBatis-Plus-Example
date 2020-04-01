@@ -1,4 +1,4 @@
-package com.fengwenyi.mybatis_plus_example.dao;
+package com.fengwenyi.mybatis_plus_example.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.fengwenyi.mybatis_plus_example.model.City;
@@ -11,6 +11,6 @@ import com.fengwenyi.mybatis_plus_example.model.City;
  * @author Wenyi Feng
  * @since 2018-08-31
  */
-public interface CityDao extends BaseMapper<City> {
+public interface CityMapper extends BaseMapper<City> {
 
 }

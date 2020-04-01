@@ -1,4 +1,4 @@
-package com.fengwenyi.mybatis_plus_example.dao;
+package com.fengwenyi.mybatis_plus_example.mapper;
 
 import com.fengwenyi.mybatis_plus_example.model.Idcard;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author Wenyi Feng
  * @since 2018-08-31
  */
-public interface IdcardDao extends BaseMapper<Idcard> {
+public interface IdcardMapper extends BaseMapper<Idcard> {
 
 }

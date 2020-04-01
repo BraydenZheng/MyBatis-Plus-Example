@@ -20,6 +20,8 @@ public interface MPStudentService extends IService<Student> {
 
     Student queryStudentByIdCardId(Long idCardId);
 
+    List<Student> selectlist(Student student);
+
     IPage<Student> queryStudentByPage(Long currentPage);
 
     void test1();

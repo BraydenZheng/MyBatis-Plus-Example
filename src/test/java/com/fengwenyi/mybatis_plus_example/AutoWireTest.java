@@ -25,7 +25,7 @@ public class AutoWireTest {
         try {
             int[] myNumbers = {1, 2, 3};
 //            System.out.println(myNumbers[10]);
-            throw IOException e = new IOException(" dkf");
+            throw  new IOException(" dkf");
         } catch (IOException e) {
             System.out.println("Something went wrong.");
         }
