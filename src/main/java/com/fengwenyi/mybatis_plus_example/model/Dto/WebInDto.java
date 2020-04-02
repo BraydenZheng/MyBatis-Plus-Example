@@ -10,11 +10,11 @@ import lombok.Setter;
 @Setter
 public class WebInDto<T extends Model<?>> extends Model<T> {
     // 分页处理用
-    @ApiParam(defaultValue = "1")
+    @ApiParam(value = "default: 1 page")
     @TableField(exist = false)
     protected Integer pageNum; //页码
 
-    @ApiParam(defaultValue = "5")
+    @ApiParam(value = "default: infinite")
     @TableField(exist = false)
     protected Integer pageSize;//分页条数
 

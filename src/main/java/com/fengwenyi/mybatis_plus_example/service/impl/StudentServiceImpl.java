@@ -67,8 +67,8 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student> impl
     public List<Student> selectlist(Student student) {
         QueryWrapper<Student> wrapper = new QueryWrapper(student);
         //search by page
-        PageHelper.startPage(student.getPageNum(), student.getPageSize());
-        PageHelper.orderBy(student.getOrder() + " " + student.getSort());
+//        PageHelper.startPage(student.getPageNum(), student.getPageSize());
+//        PageHelper.orderBy(student.getOrder() + " " + student.getSort());
         return studentMapper.selectList(wrapper);
     }
 
